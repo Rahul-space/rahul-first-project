@@ -1,0 +1,293 @@
+/**************************/
+/***** Libre Franklin *****/
+/**************************/
+
+
+/******************/
+/***** Oswald *****/
+/******************/
+/* latin-ext */
+
+@font-face {
+	font-family: 'Overpass';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Overpass Regular'), local('Overpass-Regular'), url('./overpass-bold-webfont.eot');
+	src: local('Overpass Regular'), local('Overpass-Regular'), url('./overpass-regular-webfont.eot?#iefix') format('embedded-opentype'),
+			 local('Overpass Regular'), local('Overpass-Regular'), url('./overpass-regular-webfont.woff2') format('woff2'),
+			 local('Overpass Regular'), local('Overpass-Regular'), url('./overpass-regular-webfont.woff') format('woff'),
+			 local('Overpass Regular'), local('Overpass-Regular'), url('./overpass-regular-webfont.ttf') format('truetype'),
+			 local('Overpass Regular'), local('Overpass-Regular'), url('./overpass-regular-webfont.svg#overpass') format('svg');
+}
+
+@font-face {
+	font-family: 'Overpass';
+	font-style: italic;
+	font-weight: 400;
+	src: local('Overpass Italic'), local('Overpass-Italic'), url('./overpass-italic-webfont.eot');
+	src: local('Overpass Italic'), local('Overpass-Italic'), url('./overpass-italic-webfont.eot?#iefix') format('embedded-opentype'),
+			 local('Overpass Italic'), local('Overpass-Italic'), url('./overpass-italic-webfont.woff2') format('woff2'),
+			 local('Overpass Italic'), local('Overpass-Italic'), url('./overpass-italic-webfont.woff') format('woff'),
+			 local('Overpass Italic'), local('Overpass-Italic'), url('./overpass-italic-webfont.ttf') format('truetype'),
+			 local('Overpass Italic'), local('Overpass-Italic'), url('./overpass-italic-webfont.svg#overpassitalic') format('svg');
+}
+
+@font-face {
+	font-family: 'Overpass';
+	font-style: normal;
+	font-weight: 700;
+	src: local('Overpass Bold'), local('Overpass-Bold'), url('./overpass-bold-webfont.eot');
+	src: local('Overpass Bold'), local('Overpass-Bold'), url('./overpass-bold-webfont.eot?#iefix') format('embedded-opentype'),
+			 local('Overpass Bold'), local('Overpass-Bold'), url('./overpass-bold-webfont.woff2') format('woff2'),
+			 local('Overpass Bold'), local('Overpass-Bold'), url('./overpass-bold-webfont.woff') format('woff'),
+			 local('Overpass Bold'), local('Overpass-Bold'), url('./overpass-bold-webfont.ttf') format('truetype'),
+			 local('Overpass Bold'), local('Overpass-Bold'), url('./overpass-bold-webfont.svg#overpassbold') format('svg');
+}
+
+/*do we really need the light font weight? it looks nice but only used in some small places.*/
+/*@font-face {
+	font-family: 'Overpass';
+	font-style: normal;
+	font-weight: 200;
+	src: local('Overpass Light'), local('Overpass-Light'), url('./overpass-light-webfont.eot');
+	src: local('Overpass Light'), local('Overpass-Light'), url('./overpass-light-webfont.eot?#iefix') format('embedded-opentype'),
+			 local('Overpass Light'), local('Overpass-Light'), url('./overpass-light-webfont.woff2') format('woff2'),
+			 local('Overpass Light'), local('Overpass-Light'), url('./overpass-light-webfont.woff') format('woff'),
+			 local('Overpass Light'), local('Overpass-Light'), url('./overpass-light-webfont.ttf') format('truetype'),
+			 local('Overpass Light'), local('Overpass-Light'), url('./overpass-light-webfont.svg#overpasslight') format('svg');
+}*/
+
+@font-face {
+	font-family: 'Overpass';
+	font-style: normal;
+	font-weight: 100;
+	src: local('Overpass Thin'), local('Overpass-Thin'), url('./overpass-thin-webfont.eot');
+	src: local('Overpass Thin'), local('Overpass-Thin'), url('./overpass-thin-webfont.eot?#iefix') format('embedded-opentype'),
+			 local('Overpass Thin'), local('Overpass-Thin'), url('./overpass-thin-webfont.woff2') format('woff2'),
+			 local('Overpass Thin'), local('Overpass-Thin'), url('./overpass-thin-webfont.woff') format('woff'),
+			 local('Overpass Thin'), local('Overpass-Thin'), url('./overpass-thin-webfont.ttf') format('truetype'),
+			 local('Overpass Thin'), local('Overpass-Thin'), url('./overpass-thin-webfont.svg#overpassthin') format('svg');
+}
+
+@font-face {
+	font-family: 'Overpass';
+	font-style: italic;
+	font-weight: 700;
+	src: local('Overpass Bold Italic'), local('Oswald-Bold'), url('./overpass-bold-italic-webfont.eot');
+	src: local('Overpass Bold Italic'), local('Oswald-Bold'), url('./overpass-bold-italic-webfont.eot?#iefix') format('embedded-opentype'),
+			 local('Overpass Bold Italic'), local('Oswald-Bold'), url('./overpass-bold-italic-webfont.woff2') format('woff2'),
+			 local('Overpass Bold Italic'), local('Oswald-Bold'), url('./overpass-bold-italic-webfont.woff') format('woff'),
+			 local('Overpass Bold Italic'), local('Oswald-Bold'), url('./overpass-bold-italic-webfont.ttf') format('truetype'),
+			 local('Overpass Bold Italic'), local('Oswald-Bold'), url('./overpass-bold-italic-webfont.svg#overpassbold_italic') format('svg');
+}
+
+@font-face {
+	font-family: 'Oswald';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Oswald Regular'), local('Oswald-Regular'), url('./oswald-regular-webfont.eot');
+	src: local('Oswald Regular'), local('Oswald-Regular'), url('./oswald-regular-webfont.eot?#iefix') format('embedded-opentype'),
+			 local('Oswald Regular'), local('Oswald-Regular'), url('./oswald-regular-webfont.woff2') format('woff2'),
+			 local('Oswald Regular'), local('Oswald-Regular'), url('./oswald-regular-webfont.woff') format('woff'),
+			 local('Oswald Regular'), local('Oswald-Regular'), url('./oswald-regular-webfont.ttf') format('truetype'),
+			 local('Oswald Regular'), local('Oswald-Regular'), url('./oswald-regular-webfont.svg#oswald') format('svg');
+}
+
+@font-face {
+	font-family: 'Oswald';
+	font-style: normal;
+	font-weight: 600;
+	src: local('Oswald SemiBold'), local('Oswald-SemiBold'), url('./oswald-semibold-webfont.eot');
+	src: local('Oswald SemiBold'), local('Oswald-SemiBold'), url('./oswald-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+			 local('Oswald SemiBold'), local('Oswald-SemiBold'), url('./oswald-semibold-webfont.woff2') format('woff2'),
+			 local('Oswald SemiBold'), local('Oswald-SemiBold'), url('./oswald-semibold-webfont.woff') format('woff'),
+			 local('Oswald SemiBold'), local('Oswald-SemiBold'), url('./oswald-semibold-webfont.ttf') format('truetype'),
+			 local('Oswald SemiBold'), local('Oswald-SemiBold'), url('./oswald-semibold-webfont.svg#oswaldsemibold') format('svg');
+}
+
+@font-face {
+	font-family: 'Oswald';
+	font-style: normal;
+	font-weight: 500;
+	src: local('Oswald Medium'), local('Oswald-Medium'), url('./oswald-medium-webfont.eot');
+	src: local('Oswald Medium'), local('Oswald-Medium'), url('./oswald-medium-webfont.eot?#iefix') format('embedded-opentype'),
+			 local('Oswald Medium'), local('Oswald-Medium'), url('./oswald-medium-webfont.woff2') format('woff2'),
+			 local('Oswald Medium'), local('Oswald-Medium'), url('./oswald-medium-webfont.woff') format('woff'),
+			 local('Oswald Medium'), local('Oswald-Medium'), url('./oswald-medium-webfont.ttf') format('truetype'),
+			 local('Oswald Medium'), local('Oswald-Medium'), url('./oswald-medium-webfont.svg#oswaldmedium') format('svg');
+}
+
+/*
+@font-face {
+	font-family: 'Oswald';
+	font-style: normal;
+	font-weight: 700;
+	src: local('Oswald Bold'), local('Oswald-Bold'), url('./oswald-bold-webfont.eot');
+	src: local('Oswald Bold'), local('Oswald-Bold'), url('./oswald-bold-webfont.eot?#iefix') format('embedded-opentype'),
+			 local('Oswald Bold'), local('Oswald-Bold'), url('./oswald-bold-webfont.woff2') format('woff2'),
+			 local('Oswald Bold'), local('Oswald-Bold'), url('./oswald-bold-webfont.woff') format('woff'),
+			 local('Oswald Bold'), local('Oswald-Bold'), url('./oswald-bold-webfont.ttf') format('truetype'),
+			 local('Oswald Bold'), local('Oswald-Bold'), url('./oswald-bold-webfont.svg#oswald') format('svg');
+}
+*/
+
+
+/**************************/
+/***** Akrobat *****/
+/**************************/
+@font-face {
+	font-family: 'Acrobat';
+	font-style: normal;
+	font-weight: 900;
+	src: local('Acrobat Extrabold'), local('Acrobat-Extrabold'), url('./akrobat-extrabold-webfont.eot');
+	src: local('Acrobat Extrabold'), local('Acrobat-Extrabold'), url('./akrobat-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
+			 local('Acrobat Extrabold'), local('Acrobat-Extrabold'), url('./akrobat-extrabold-webfont.woff2') format('woff2'),
+			 local('Acrobat Extrabold'), local('Acrobat-Extrabold'), url('./akrobat-extrabold-webfont.woff') format('woff'),
+			 local('Acrobat Extrabold'), local('Acrobat-Extrabold'), url('./akrobat-extrabold-webfont.ttf') format('truetype'),
+			 local('Acrobat Extrabold'), local('Acrobat-Extrabold'), url('./akrobat-extrabold-webfont.svg#akrobatbold') format('svg');
+}
+
+@font-face {
+	font-family: 'Acrobat';
+	font-style: normal;
+	font-weight: 700;
+	src: local('Acrobat Bold'), local('Acrobat-Bold'), url('./akrobat-bold-webfont.eot');
+	src: local('Acrobat Bold'), local('Acrobat-Bold'), url('./akrobat-bold-webfont.eot?#iefix') format('embedded-opentype'),
+			 local('Acrobat Bold'), local('Acrobat-Bold'), url('./akrobat-bold-webfont.woff2') format('woff2'),
+			 local('Acrobat Bold'), local('Acrobat-Bold'), url('./akrobat-bold-webfont.woff') format('woff'),
+			 local('Acrobat Bold'), local('Acrobat-Bold'), url('./akrobat-bold-webfont.ttf') format('truetype'),
+			 local('Acrobat Bold'), local('Acrobat-Bold'), url('./akrobat-bold-webfont.svg#akrobatbold') format('svg');
+}
+
+@font-face {
+	font-family: 'Acrobat';
+	font-style: normal;
+	font-weight: 500;
+	src: local('Acrobat Semibold'), local('Acrobat-Semibold'), url('./akrobat-semibold-webfont.eot');
+	src: local('Acrobat Semibold'), local('Acrobat-Semibold'), url('./akrobat-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+			 local('Acrobat Semibold'), local('Acrobat-Semibold'), url('./akrobat-semibold-webfont.woff2') format('woff2'),
+			 local('Acrobat Semibold'), local('Acrobat-Semibold'), url('./akrobat-semibold-webfont.woff') format('woff'),
+			 local('Acrobat Semibold'), local('Acrobat-Semibold'), url('./akrobat-semibold-webfont.ttf') format('truetype'),
+			 local('Acrobat Semibold'), local('Acrobat-Semibold'), url('./akrobat-semibold-webfont.svg#overpassthin') format('svg');
+}
+
+@font-face {
+	font-family: 'Acrobat';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Acrobat Regular'), local('Acrobat-Regular'), url('./akrobat-regular-webfont.eot');
+	src: local('Acrobat Regular'), local('Acrobat-Regular'), url('./akrobat-regular-webfont.eot?#iefix') format('embedded-opentype'),
+			 local('Acrobat Regular'), local('Acrobat-Regular'), url('./akrobat-regular-webfont.woff2') format('woff2'),
+			 local('Acrobat Regular'), local('Acrobat-Regular'), url('./akrobat-regular-webfont.woff') format('woff'),
+			 local('Acrobat Regular'), local('Acrobat-Regular'), url('./akrobat-regular-webfont.ttf') format('truetype'),
+			 local('Acrobat Regular'), local('Acrobat-Regular'), url('./akrobat-regular-webfont.svg#overpassthin') format('svg');
+}
+
+
+/**************************/
+/***** Rajdhan *****/
+/**************************/
+@font-face {
+	font-family: 'Rajdhani';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Rajdhani Regular'), local('Rajdhani-Regular'), url('./rajdhani-semibold-webfont.eot');
+	src: local('Rajdhani Regular'), local('Rajdhani-Regular'), url('./rajdhani-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+			 local('Rajdhani Regular'), local('Rajdhani-Regular'), url('./rajdhani-semibold-webfont.woff2') format('woff2'),
+			 local('Rajdhani Regular'), local('Rajdhani-Regular'), url('./rajdhani-semibold-webfont.woff') format('woff'),
+			 local('Rajdhani Regular'), local('Rajdhani-Regular'), url('./rajdhani-semibold-webfont.ttf') format('truetype'),
+			 local('Rajdhani Regular'), local('Rajdhani-Regular'), url('./rajdhani-semibold-webfont.svg#overpassthin') format('svg');
+}
+
+/**************************/
+/***** Merriweather *****/
+/**************************/
+/* merriweather-300 */
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 300;
+  src: url('./merriweather-v19-latin-300.eot'); /* IE9 Compat Modes */
+  src: local('Merriweather Light'), local('Merriweather-Light'), url('./merriweather-v19-latin-300.eot?#iefix') format('embedded-opentype'),
+       local('Merriweather Light'), local('Merriweather-Light'), url('./merriweather-v19-latin-300.woff2') format('woff2'),
+       local('Merriweather Light'), local('Merriweather-Light'), url('./merriweather-v19-latin-300.woff') format('woff'),
+       local('Merriweather Light'), local('Merriweather-Light'), url('./merriweather-v19-latin-300.ttf') format('truetype'),
+       local('Merriweather Light'), local('Merriweather-Light'), url('./merriweather-v19-latin-300.svg#Merriweather') format('svg');
+}
+/* merriweather-regular*/
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./merriweather-v19-latin-regular.eot');
+  src: local('Merriweather Regular'), local('Merriweather-Regular'), url('./merriweather-v19-latin-regular.eot?#iefix') format('embedded-opentype'),
+       local('Merriweather Regular'), local('Merriweather-Regular'), url('./merriweather-v19-latin-regular.woff2') format('woff2'),
+       local('Merriweather Regular'), local('Merriweather-Regular'), url('./merriweather-v19-latin-regular.woff') format('woff'),
+       local('Merriweather Regular'), local('Merriweather-Regular'), url('./merriweather-v19-latin-regular.ttf') format('truetype'),
+       local('Merriweather Regular'), local('Merriweather-Regular'), url('./merriweather-v19-latin-regular.svg#Merriweather') format('svg');
+}
+/* merriweather-700 */
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./merriweather-v19-latin-700.eot'); /* IE9 Compat Modes */
+  src: local('Merriweather Bold'), local('Merriweather-Bold'), url('./merriweather-v19-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       local('Merriweather Bold'), local('Merriweather-Bold'), url('./merriweather-v19-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       local('Merriweather Bold'), local('Merriweather-Bold'), url('./merriweather-v19-latin-700.woff') format('woff'), /* Modern Browsers */
+       local('Merriweather Bold'), local('Merriweather-Bold'), url('./merriweather-v19-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       local('Merriweather Bold'), local('Merriweather-Bold'), url('./merriweather-v19-latin-700.svg#Merriweather') format('svg'); /* Legacy iOS */
+}
+
+/**************************/
+/***** Poppins *****/
+/**************************/
+
+/* poppins-300 - latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  src: url('./poppins-v5-latin-300.eot');
+  src: local('Poppins Light'), local('Poppins-Light'), url('./poppins-v5-latin-300.eot?#iefix') format('embedded-opentype'),
+       local('Poppins Light'), local('Poppins-Light'), url('./poppins-v5-latin-300.woff2') format('woff2'),
+       local('Poppins Light'), local('Poppins-Light'), url('./poppins-v5-latin-300.woff') format('woff'),
+       local('Poppins Light'), local('Poppins-Light'), url('./poppins-v5-latin-300.ttf') format('truetype'),
+       local('Poppins Light'), local('Poppins-Light'), url('./poppins-v5-latin-300.svg#Poppins') format('svg');
+}
+/* poppins-regular - latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./poppins-v5-latin-regular.eot');
+  src: local('Poppins Regular'), local('Poppins-Regular'), url('./poppins-v5-latin-regular.eot?#iefix') format('embedded-opentype'),
+       local('Poppins Regular'), local('Poppins-Regular'), url('./poppins-v5-latin-regular.woff2') format('woff2'),
+       local('Poppins Regular'), local('Poppins-Regular'), url('./poppins-v5-latin-regular.woff') format('woff'),
+       local('Poppins Regular'), local('Poppins-Regular'), url('./poppins-v5-latin-regular.ttf') format('truetype'),
+       local('Poppins Regular'), local('Poppins-Regular'), url('./poppins-v5-latin-regular.svg#Poppins') format('svg');
+}
+/* poppins-700 - latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./poppins-v5-latin-700.eot');
+  src: local('Poppins Bold'), local('Poppins-Bold'), url('./poppins-v5-latin-700.eot?#iefix') format('embedded-opentype'),
+       local('Poppins Bold'), local('Poppins-Bold'), url('./poppins-v5-latin-700.woff2') format('woff2'),
+       local('Poppins Bold'), local('Poppins-Bold'), url('./poppins-v5-latin-700.woff') format('woff'),
+       local('Poppins Bold'), local('Poppins-Bold'), url('./poppins-v5-latin-700.ttf') format('truetype'),
+       local('Poppins Bold'), local('Poppins-Bold'), url('./poppins-v5-latin-700.svg#Poppins') format('svg');
+}
+/* poppins-900 - latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 900;
+  src: url('./poppins-v5-latin-900.eot');
+  src: local('Poppins Black'), local('Poppins-Black'), url('./poppins-v5-latin-900.eot?#iefix') format('embedded-opentype'),
+       local('Poppins Black'), local('Poppins-Black'), url('./poppins-v5-latin-900.woff2') format('woff2'),
+       local('Poppins Black'), local('Poppins-Black'), url('./poppins-v5-latin-900.woff') format('woff'),
+       local('Poppins Black'), local('Poppins-Black'), url('./poppins-v5-latin-900.ttf') format('truetype'),
+       local('Poppins Black'), local('Poppins-Black'), url('./poppins-v5-latin-900.svg#Poppins') format('svg');
+}

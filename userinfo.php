@@ -14,6 +14,7 @@ $email = $_POST['email'];
 $mobile = $_POST['mobile'];
 $question = $_POST['question'];
 $comment = $_POST['country'];
+$comment = $_POST['country'];
 
 
 
